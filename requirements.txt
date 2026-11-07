@@ -1,0 +1,11 @@
+# Install torch separately for your CUDA runtime: https://pytorch.org/get-started/locally/
+numpy
+scipy
+soundfile
+pandas
+matplotlib
+torchlibrosa
+librosa
+h5py
+jupyterlab
+ipykernel

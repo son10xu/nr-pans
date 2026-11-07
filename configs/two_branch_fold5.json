@@ -1,0 +1,11 @@
+{
+  "model": "NRPANNs",
+  "test_fold": 5,
+  "validation_fold": 1,
+  "epochs": 100,
+  "patience": 20,
+  "batch_size": 4,
+  "lr_backbone": 2e-05,
+  "lr_new": 0.0001,
+  "use_amp": false
+}

@@ -1,0 +1,37 @@
+# Python environment and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.env
+.env.*
+!.env.example
+
+# Datasets and pretrained/finetuned weights
+data/
+**/data/
+checkpoints/
+**/checkpoints/
+*.wav
+*.flac
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
+# Training output and logs
+runs/
+**/runs/
+outputs/
+**/outputs/
+wandb/
+logs/
+
+# archives, secrets, noise
+*.zip
+*.tar.gz
+.DS_Store
+.idea/
+.vscode/
