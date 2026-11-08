@@ -1,0 +1,7 @@
+# Install torch compatible with Kaggle GPU runtime; no version pin here.
+numpy
+scipy
+soundfile
+torchlibrosa
+librosa
+h5py
